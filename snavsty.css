@@ -1,0 +1,167 @@
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+.navbar{
+    text-align: right;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height:100px;
+    background: rgba(0,0,0, 0.5);
+          background-image:url('logo.jpg');
+    z-index: 9999;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .box{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+   -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    height:100%;
+  }
+  .logo{
+    position: absolute;
+    left: 5%;
+    margin-top: 3px;
+    height: 45px;
+    width: auto;
+    float: left;
+  }
+  .navbar a{
+    display: block;
+    list-style: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+  }
+  
+  
+  
+  .navbar li a:link,
+  .navbar li a:visited{
+    color: #cccccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+    padding-bottom: 5px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-top: 20px;
+    padding-bottom: 5px;
+    margin-right: 40px;
+  }
+  
+  .navbar li:last-child{
+    padding-right: 5%;
+  }
+  
+  .navbar li a:hover,
+  .navbar li a:active{
+    border-bottom: 3px solid #cf6d17;
+  }
+ div{
+   font: 100;
+ }
+ p{
+   font-style: normal;
+   
+ }
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ .footercontainer{
+   background-color: aqua;
+   padding: 4rem;
+ }
+ .footer{
+   height: 40vh;
+   background-color:burlywood;
+   color: white;
+   display: flex;
+   justify-content:end;
+   flex-wrap: wrap;
+   margin: 0 auto;
+ }
+ .footer1{
+   display: flex;
+   flex-direction: column;
+   margin-right: 4rem;
+ }
+ .footer2{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+*a{
+  text-decoration: none;
+  margin-bottom: none;
+  margin-bottom: 0.5rem;
+
+}
+footer a:hover{
+  color: aqua;
+  transition: none;
+}
+.footer a{
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.ig{
+  background-position: 200%;
+}
+.btt{
+  border: 10;
+  margin: auto;
+  padding: auto;
+  font: 100;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: auto;
+  align-content: left;
+  border-radius: 2;
+  box-sizing: border-box;
+}
+img{
+  height: auto;
+  height: fit-content;
+  width: fit-content;
+}
+.identy{
+  display: flex;
+}
+.abo{
+  height: 600px;
+  width: 500px;
+}
+.log{
+ width: 600px;
+ height: 500px;
+ size: 400px;
+}
+.information{
+  color: white;
+  display: flex;
+  justify-content:end;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+}
+mail:a :hover{
+  color: blue;
+}
